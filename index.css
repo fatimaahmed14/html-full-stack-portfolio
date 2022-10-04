@@ -1,5 +1,6 @@
-body{
+body {
   background-color: teal;
+  font-family: sans-serif;
 }
 .header {
   display: grid;
@@ -12,8 +13,15 @@ li {
   display: inline-block;
   list-style: none;
   float: right;
+}
+button {
+  text-decoration-color: teal;
+  size: 40px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+button a {
   color: teal;
-  list-style: circle;
 }
 
 .introduction {
@@ -28,4 +36,7 @@ li {
 
 .introduction h1 {
   font-size: 50px;
+}
+.introduction strong {
+  color: black;
 }

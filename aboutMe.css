@@ -1,0 +1,16 @@
+body {
+  background-color: rgb(241, 238, 222);
+  font-family: sans-serif;
+  margin-left: 300px;
+  margin-right: 300px;
+  height: 100vh;
+}
+
+.aboutme h1 {
+  text-align: center;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
