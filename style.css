@@ -1,0 +1,12 @@
+.header {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  border: none rgb(1, 1, 1);
+}
+li {
+  margin-left: 100px;
+  margin-top: 20px;
+  display: inline-block;
+  list-style: none;
+  float: right;
+}
